@@ -36,6 +36,14 @@ $overlay.click(function(){
   $overlay.hide();
 });
 
+//When esc key is clicked
+
+$('body').keyup(function(e) {
+  if (e.keyCode == 27){
+    $overlay.hide();
+  }
+});
+
 
 
 
